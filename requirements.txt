@@ -1,0 +1,5 @@
+requests==2.25.0
+beautifulsoup4==4.9.3
+youtube-search==1.1.1
+PyQt5==5.15.2
+PyQtWebEngine==5.15.2

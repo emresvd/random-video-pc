@@ -19,8 +19,7 @@ class Window(QMainWindow):
         self.web.load(QUrl(self.getUrl()))
 
     def keyPressEvent(self, event):
-        if event.key() == Qt.Key_Control:
-            self.web.load(QUrl(self.getUrl()))
+        self.web.load(QUrl(self.getUrl()))
 
     def getUrl(self):
         return YOUTUBE_EMBED_URL.format(random_video.get_random_video_id())

@@ -22,9 +22,9 @@ DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Users\User\Downloads
+OutputDir=.
 OutputBaseFilename=randomvideosetup
-SetupIconFile=C:\Users\User\Documents\GitHub\random-video-pc\dist\randomvideo\icon.ico
+SetupIconFile=dist\randomvideo\icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -60,8 +60,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\User\Documents\GitHub\random-video-pc\dist\randomvideo\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\User\Documents\GitHub\random-video-pc\dist\randomvideo\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "dist\randomvideo\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\randomvideo\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

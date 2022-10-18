@@ -8,6 +8,7 @@ import random_video
 
 YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/{}?autoplay=1&mute=1"
 
+
 class Window(QMainWindow):
     def __init__(self):
         super(Window, self).__init__()
@@ -23,6 +24,7 @@ class Window(QMainWindow):
 
     def getUrl(self):
         return YOUTUBE_EMBED_URL.format(random_video.get_random_video_id())
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

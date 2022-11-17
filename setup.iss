@@ -3,7 +3,7 @@
 
 #define MyAppName "Random YouTube Video"
 #define MyAppVersion "1.0"
-#define MyAppPublisher "Aenos"
+#define MyAppPublisher "emresvd"
 #define MyAppURL "https://github.com/emresvd/"
 #define MyAppExeName "randomvideo.exe"
 
